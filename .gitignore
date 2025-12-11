@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build artifacts (keep main.js for Obsidian compatibility)
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test vaults
+test-vault/
+
+# Local configuration (vault paths, etc.)
+.env.local
+.env.*.local
+
+# OAuth credentials (NEVER commit these)
+credentials.json
+token.json
+*.pem
+*.key
