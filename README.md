@@ -1,5 +1,11 @@
 # Email to PARA Sync Plugin
 
+> ⚠️ **DEPRECATED:** This OAuth-based Obsidian plugin approach has been superseded by a simpler Cloudflare Email Worker architecture. See [cloudflare-email-to-obsidian](https://github.com/mriechers/cloudflare-email-to-obsidian) for the new approach, which eliminates OAuth complexity by using email forwarding rules instead.
+>
+> This repository is archived for reference only.
+
+---
+
 Automatically sync starred Gmail and flagged Outlook emails as notes in your Obsidian PARA inbox.
 
 ## Overview
